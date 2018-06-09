@@ -31,7 +31,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     katz_deli
     # binding.pry
-    "The line is currently: #{katz_deli.length}. #{katz_deli}"
+    puts "The line is currently: #{katz_deli.length}. #{katz_deli}"
   else  
     puts "The line is currently empty."
    end 
